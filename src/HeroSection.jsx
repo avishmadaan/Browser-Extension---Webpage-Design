@@ -24,7 +24,7 @@ export function  HeroSection() {
 <div className="bg-softBlue w-[2000px] h-[300px] top-1/3 left-[30%] absolute rounded-bl-full rounded-tl-full hidden lg:block" ></div>
 
 
-            <img src="https://tailwindfromscratch.com/website-projects/bookmark/images/illustration-hero.svg" alt="main" className="z-20 relative" />
+            <img src="https://tailwindfromscratch.com/website-projects/bookmark/images/illustration-hero.svg" alt="main" className="relative" />
 
             </div>
 

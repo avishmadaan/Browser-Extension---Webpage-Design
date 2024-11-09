@@ -11,7 +11,7 @@ export function Navbar() {
 
     <div className="flex items-center justify-between my-6  ">
 
-    <img src={`${open?"https://tailwindfromscratch.com/website-projects/bookmark/images/logo-bookmark-footer.svg" :"https://tailwindfromscratch.com/website-projects/bookmark/images/logo-bookmark.svg"} `} className="z-10" />
+    <img src={`${open?"https://tailwindfromscratch.com/website-projects/bookmark/images/logo-bookmark-footer.svg" :"https://tailwindfromscratch.com/website-projects/bookmark/images/logo-bookmark.svg"} `} className="z-20 " />
 
 <div className="text-softGray md:flex gap-10 text-md items-center hidden "  id="menu">
     <a href="" className="tracking-widest cursor-pointer hover:text-red-300 uppercase ">Features</a>
@@ -30,7 +30,7 @@ export function Navbar() {
 
 
 
-<div id="mobilemenu" className={`absolute inset-0 gap-8 transition-all duration-100 ease-in bg-[#252b46] bg-opacity-90 flex flex-col ${open?" opacity-100 visible ":"opacity-0 invisible "}  py-6 px-6 pt-24 justify-normal items-center text-white uppercase md:hidden`}>
+<div id="mobilemenu" className={`absolute inset-0 gap-8 transition-all duration-100 ease-in bg-[#252b46] bg-opacity-90 flex flex-col ${open?" opacity-100 visible ":"opacity-0 invisible "}  py-6 px-6 pt-24 justify-normal items-center text-white uppercase md:hidden z-10`}>
 
     <a href="" className="mt-4 tracking-widest cursor-pointer hover:text-red-300 uppercase ">Features</a>
 
